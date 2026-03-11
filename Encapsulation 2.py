@@ -5,7 +5,8 @@ class Person:
         return self.__name
     def setter(self,value):
         self.__name=value
+    getset=property(getter,setter)
 P=Person()
-P.setter("Ujwal")
-res=P.getter()
+P.getset=("Ujwal")
+res=P.getset
 print(res)
