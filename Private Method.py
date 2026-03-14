@@ -10,3 +10,4 @@ class Demo:
         print(mul)
 d=Demo()
 d.calculate()
+
