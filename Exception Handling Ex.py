@@ -4,4 +4,4 @@ print("Enter a value 2")
 b=int(input())
 c=a/b
 print(c)
-print("program end")
+print("program")
