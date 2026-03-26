@@ -11,4 +11,5 @@ except ZeroDivisionError as e:
     print("It is a ZerodivisionError")
 except Exception as e:
     print("It is a error")
+    print(e)
 print("Program end")
