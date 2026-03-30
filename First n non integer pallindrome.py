@@ -15,10 +15,10 @@ n = int(input("Enter value of n: "))
 count = 0
 num = 1
 
-print("First", n, "palindrome numbers are:")
+print("First", n, "non-palindrome numbers are:")
 
 while count < n:
-    if is_palindrome(num):
+    if not is_palindrome(num):   # condition changed
         print(num, end=" ")
         count += 1
     num += 1
