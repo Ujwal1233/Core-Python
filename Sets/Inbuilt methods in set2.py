@@ -1,0 +1,12 @@
+s1={1,2,3,4}
+s2={3,4,5,6}
+s3={5,6,7,8}
+print(s1.isdisjoint(s2))
+print(s2.isdisjoint(s3))
+print(s3.isdisjoint(s1))
+s1={1,2,3,4}
+s2={1,2}
+print(s1.issuperset(s2))
+print(s1.issubset(s2))
+print(s2.issubset(s1))
+print(s2.issuperset(s1))
