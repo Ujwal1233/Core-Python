@@ -1,0 +1,16 @@
+Student={"Name":"Rama",
+         "Age":20,
+         "Phone":{"Mobile1":1234567890,
+                  "Mobile2":9876543210
+                 },
+         "Address":{
+             "Present":"Kathmandu",
+             "Permanent":"Lalitpur"     
+                 }
+        }
+print(Student)
+print(Student["Age"])
+print(Student["Phone"]["Mobile1"])
+print(Student["Address"]["Permanent"])
+Student["Marks"]={1:70,2:85,3:97,4:100}
+print(Student)

@@ -1,0 +1,15 @@
+d={1:11,
+   2:22,
+   3:33,
+   4:44,
+}
+print(d)
+d1=d
+d[1]=111
+print(d)
+print(d1)
+d2=d.copy()
+d[1]=1111
+print(d)
+print(d1)
+print(d2)
