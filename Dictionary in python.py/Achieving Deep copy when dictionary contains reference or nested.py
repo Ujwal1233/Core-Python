@@ -4,13 +4,17 @@ Student={"Name":"Rama",
                   "Mobile2":9876543210
                  },
          "Address":{
-             "Present":"Kathmandu",
-             "Permanent":"Lalitpur"     
+             "Present":"Bang",
+             "Permanent":"Mys"     
                  }
         }
 print(Student)
-print(Student["Age"])
+S1=Student
+Student["Phone"]["Mobile1"]=7777
 print(Student["Phone"]["Mobile1"])
+print(S1["Phone"]["Mobile1"])
+S2=Student.copy()
+Student["Address"]["Permanent"]="Hyd"
 print(Student["Address"]["Permanent"])
-Student["Marks"]={1:70,2:85,3:97,4:100}
-print(Student)                      
+print(S1["Address"]["Permanent"])
+print(S2["Address"]["Permanent"])
