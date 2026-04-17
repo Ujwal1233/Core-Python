@@ -1,0 +1,6 @@
+fname=input()
+fptr=open(fname,"r")
+data1=fptr.read()
+data3=fptr.readline(2)
+data4=fptr.readline(3)
+print(data4)

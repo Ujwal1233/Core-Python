@@ -1,0 +1,15 @@
+import csv
+print("Enter the filename")
+fname=input()
+fptr=open(fname,"a",newline="")
+w=csv.writer(fptr)
+w.writerow(["EID","ENAME","EDES","ESAL","EADDR"])
+for i in range(5):
+    eid=input("Enter id:")
+    ename=input("Enter name:")
+    edes=input("Enter designation:")
+    esal=input("Enter salary:")
+    eaddr=input("Enter address:")
+    w.writerow([eid,ename,edes,esal,eaddr])
+fptr.close()
+print("5 Employee details are stored in csv file")

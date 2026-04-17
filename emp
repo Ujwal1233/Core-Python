@@ -1,0 +1,11 @@
+EID,ENAME,EDES,ESAL,EADDR
+101,Ujwal,Ceo,200000,Bang
+102,Chaluva,HR,300000,Bang
+EID,ENAME,EDES,ESAL,EADDR
+101,Ujwal,Owner,,
+EID,ENAME,EDES,ESAL,EADDR
+101,Ujwal D,Owner,2000000,Banglore
+102,Chaluvaraj,CEO,1000000,Vijaynagar
+103,Deepak,Developer,500000,Leggere
+104,Likhith,Testing,600000,Sunkadakatte
+105,Bharath,Testing,300000,Delhi
